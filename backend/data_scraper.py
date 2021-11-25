@@ -1,21 +1,20 @@
 import pandas as pd
-from sources import *
+from sources import NASDAQ, DB_PATH, NASDAQ_URL
 
 
 class DataScraper:
 
     @staticmethod
-    def prepare_trading_view_data(scraped_trading_view_df):
-        return scraped_trading_view_df.set_axis(['TICKER', 'PRICE', 'CHG', 'PRICE_CHANGE', 'RATING', 'VOLUME',
+    def get_index_component_data_from_trading_view_as_df(link, index_name):
+        index_df = pd.read_html(link)[0]
+        index_df.set_axis(['TICKER', 'PRICE', 'CHG', 'PRICE_CHANGE', 'RATING', 'VOLUME',
                                                 'VOLUME*PRICE', 'MARKET CAP', 'P/E', 'EPS', 'NUMBER OF EMPLOYEES',
                                                  'SECTOR'], axis=1, inplace=True)
-
-    @staticmethod
-    def get_raw_nasdaq_data():
-        return pd.read_html(NASDAQ)[0]
+        index_df.to_csv(DB_PATH + index_name)
+        return index_df
 
 
 if __name__ == '__main__':
     d = DataScraper()
-    df = d.prepare_trading_view_data(d.get_raw_nasdaq_data())
+    nasdaq_100_df = d.get_index_component_data_from_trading_view_as_df(NASDAQ_URL, NASDAQ)
     print('debug breakpoint')

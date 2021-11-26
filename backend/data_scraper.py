@@ -10,6 +10,7 @@ class DataScraper:
         index_df.set_axis(['TICKER', 'PRICE', 'CHG', 'PRICE_CHANGE', 'RATING', 'VOLUME',
                                                 'VOLUME*PRICE', 'MARKET CAP', 'P/E', 'EPS', 'NUMBER OF EMPLOYEES',
                                                  'SECTOR'], axis=1, inplace=True)
+        index_df[['TICKER', 'NAME']] = index_df['TICKER'].str.split(' ', 1, expand=True)
         index_df.to_csv(DB_PATH + index_name)
         return index_df
 

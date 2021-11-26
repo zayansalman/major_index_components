@@ -11,5 +11,8 @@ class Nasdaq100:
 
 if __name__ == '__main__':
     n = Nasdaq100()
-    df = n.load_nasdaq_100_data()
+    nasdaq_100_df = n.load_nasdaq_100_data()
+    sectors = nasdaq_100_df['SECTOR'].unique()
+    nasdaq_100_sectors_obj = nasdaq_100_df.groupby('SECTOR')
+    test = nasdaq_100_sectors_obj.get_group('Electronic Technology')
     print('debug breakpoint')

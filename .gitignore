@@ -127,7 +127,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-# my files
-sources.py
-/backend/database/nasdaq_100.csv

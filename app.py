@@ -19,7 +19,6 @@ app.layout = html.Div(children=
                        html.Div(children='''Companies in the Electronic Technology sector of the Nasdaq 100.'''),
                        dcc.Graph(id='electronic-technology', figure=fig)])
 
-
 if __name__ == '__main__':
     app.run_server(debug=True)
 

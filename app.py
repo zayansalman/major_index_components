@@ -2,10 +2,11 @@ import dash
 from dash import dcc
 from dash import html
 import plotly.express as px
-import pandas as pd
 from backend.nasdaq_100 import Nasdaq100
 
 app = dash.Dash(__name__)
+server = app.server
+
 nasdaq100 = Nasdaq100()
 sector_list = nasdaq100.get_sector_list(Nasdaq100.load_nasdaq_100_data())
 nasdaq100_sectors_dict = nasdaq100.get_nasdaq_100_sectors_dict()

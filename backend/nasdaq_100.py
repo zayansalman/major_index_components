@@ -1,12 +1,11 @@
 import pandas as pd
-from sources import DB_PATH, NASDAQ
 
 
 class Nasdaq100:
-
-    @staticmethod
-    def load_nasdaq_100_data():
-        return pd.read_csv(DB_PATH + NASDAQ, index_col=0)
+    def __init__(self):
+        nasdaq100_df = self.load_nasdaq_100_data()
+        self.sector_list = self.get_sector_list(nasdaq100_df)
+        self.sectors_df_dict = self.get_nasdaq_100_sectors_dict()
 
     def get_nasdaq_100_sectors_dict(self):
         nasdaq_100_df = self.load_nasdaq_100_data()
@@ -14,6 +13,10 @@ class Nasdaq100:
         nasdaq_100_obj = self.get_nasdaq_sectors_obj(nasdaq_100_df)
         sectors_df_dict = {sector: self.get_df_for_sector(nasdaq_100_obj, sector) for sector in sector_list}
         return sectors_df_dict
+
+    @staticmethod
+    def load_nasdaq_100_data():
+        return pd.read_csv('nasdaq_100.csv', index_col=0)
 
     @staticmethod
     def get_df_for_sector(obj, sector_name):
@@ -27,7 +30,6 @@ class Nasdaq100:
     @staticmethod
     def get_sector_list(df):
         return df['SECTOR'].unique()
-
 
 # if __name__ == '__main__':
 #     n = Nasdaq100()

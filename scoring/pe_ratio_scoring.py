@@ -26,18 +26,15 @@ class Nasdaq100PERatioScoring:
     def get_pe_ratio_scores():
         nasdaq100 = Nasdaq100()
         pe = 'P/E'
-        all_sectors_df = pd.DataFrame()
         sector_list = nasdaq100.sector_list
         for sector in sector_list:
             p = PERatioScoring(Nasdaq100Sectors(sector).get_numeric_col(pe))
             pe_score_rating = p.get_score_rating()
             sector_df = nasdaq100.sectors_df_dict[sector]
-            sector_df['P/E Rating'] = pe_score_rating
-            all_sectors_df.append(sector_df) #issue line - what to do with each sector df
-        return all_sectors_df
+            sector_df['P/E Rating'] = pe_score_rating #what to do with each sector df
+        pass
 
 
 if __name__ == '__main__':
     npe = Nasdaq100PERatioScoring()
-    df = npe.get_pe_ratio_scores()
     print('debug breakpoint')

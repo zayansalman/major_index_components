@@ -23,7 +23,7 @@ class PERatioScoring:
 class Nasdaq100PERatioScoring:
 
     @staticmethod
-    def get_pe_ratio_scores():
+    def add_pe_ratio_scores_to_sectors_dict():
         nasdaq100 = Nasdaq100()
         pe = 'P/E'
         sector_list = nasdaq100.sector_list
@@ -31,10 +31,11 @@ class Nasdaq100PERatioScoring:
             p = PERatioScoring(Nasdaq100Sectors(sector).get_numeric_col(pe))
             pe_score_rating = p.get_score_rating()
             sector_df = nasdaq100.sectors_df_dict[sector]
-            sector_df['P/E Rating'] = pe_score_rating #what to do with each sector df
-        pass
+            sector_df['P/E Rating'] = pe_score_rating
+        return nasdaq100.sectors_df_dict
 
 
 if __name__ == '__main__':
     npe = Nasdaq100PERatioScoring()
+    dict = npe.add_pe_ratio_scores_to_sectors_dict()
     print('debug breakpoint')

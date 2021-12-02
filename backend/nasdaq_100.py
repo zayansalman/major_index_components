@@ -16,8 +16,8 @@ class Nasdaq100:
 
     @staticmethod
     def load_nasdaq_100_data():
-        # return pd.read_csv('nasdaq_100.csv', index_col=0) #for Heroku deployment version
-        return pd.read_csv(DB_PATH + NASDAQ)
+        return pd.read_csv('nasdaq_100.csv', index_col=0) #for Heroku deployment version
+        # return pd.read_csv(DB_PATH + NASDAQ)
 
     @staticmethod
     def get_df_for_sector(obj, sector_name):

@@ -37,5 +37,5 @@ class Nasdaq100PERatioScoring:
 
 if __name__ == '__main__':
     npe = Nasdaq100PERatioScoring()
-    dict = npe.add_pe_ratio_scores_to_sectors_dict()
+    sector_dict = npe.add_pe_ratio_scores_to_sectors_dict()
     print('debug breakpoint')

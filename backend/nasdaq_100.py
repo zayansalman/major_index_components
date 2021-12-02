@@ -54,4 +54,6 @@ class Nasdaq100Sectors:
 
 if __name__ == '__main__':
     n = Nasdaq100()
+    sector_list = n.get_sector_list()
+    print(sector_list)
     print('debug breakpoint')

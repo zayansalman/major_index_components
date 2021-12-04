@@ -1,5 +1,5 @@
 import pandas as pd
-from sources import DB_PATH
+from sources import DB_PATH, NASDAQ_URL, NASDAQ
 
 
 class DataScraper:
@@ -17,4 +17,5 @@ class DataScraper:
 
 if __name__ == '__main__':
     d = DataScraper()
+    d.get_index_component_data_from_trading_view_as_df(NASDAQ_URL, NASDAQ)
     print('debug breakpoint')

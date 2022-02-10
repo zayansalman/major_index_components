@@ -26,14 +26,7 @@ consumer_non_durables_fig = px.bar(sector_dict['Consumer Non-Durables'], x="P/E 
 communications_fig = px.bar(sector_dict['Communications'], x="P/E Rating", y="PRICE", color="NAME", barmode="group")
 
 app.layout = html.Div(children=
-                      [html.H1(children='Nasdaq100 Components Daily P/E Analyser'),
-                       html.Div(children='''Rating stocks out of 10 based on their current PE ratios in their sector.
-                       While many tech companies trade on future potential and projected growth and do not have earnings.
-                       This tool is just for fun and to show you a comparison of current tech companies who have earnings and are a
-                       part of the Nasdaq100 Index.
-                       - Hover over bars to see name and price. 
-                       - Click to select and unselect stocks to see in chart.
-                       '''),
+                      [html.H1(children='Nasdaq100 Components P/E Ratio Z-Score by Sector'),
                        html.H1(children='Electronic Technology'),
                        dcc.Graph(id='electronic-technology', figure=electronic_technology_fig),
                        html.H1(children='Technology Services'),

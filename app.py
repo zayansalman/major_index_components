@@ -2,6 +2,7 @@ import dash
 from dash import dcc
 from dash import html
 import plotly.express as px
+from dash.dependencies import Input, Output
 from scoring.pe_ratio_scoring import Nasdaq100PERatioScoring
 
 app = dash.Dash(__name__)
@@ -11,49 +12,51 @@ npe = Nasdaq100PERatioScoring()
 sector_dict = npe.add_pe_ratio_scores_to_sectors_dict()
 
 
-electronic_technology_fig = px.bar(sector_dict['Electronic Technology'], x="P/E Rating", y="PRICE", color="NAME", barmode="group")
-technology_services_fig = px.bar(sector_dict['Technology Services'], x="P/E Rating", y="PRICE", color="NAME", barmode="group")
-utilities_fig = px.bar(sector_dict['Utilities'], x="P/E Rating", y="PRICE", color="NAME", barmode="group")
-health_tech_fig = px.bar(sector_dict['Health Technology'], x="P/E Rating", y="PRICE", color="NAME", barmode="group")
-producer_mfg_fig = px.bar(sector_dict['Producer Manufacturing'], x="P/E Rating", y="PRICE", color="NAME", barmode="group")
-retail_trade_fig = px.bar(sector_dict['Retail Trade'], x="P/E Rating", y="PRICE", color="NAME", barmode="group")
-consumer_durables_fig = px.bar(sector_dict['Consumer Durables'], x="P/E Rating", y="PRICE", color="NAME", barmode="group")
-consumer_services_fig = px.bar(sector_dict['Consumer Services'], x="P/E Rating", y="PRICE", color="NAME", barmode="group")
-commercial_services_fig = px.bar(sector_dict['Commercial Services'], x="P/E Rating", y="PRICE", color="NAME", barmode="group")
-transportation_fig = px.bar(sector_dict['Transportation'], x="P/E Rating", y="PRICE", color="NAME", barmode="group")
-distribution_services_fig = px.bar(sector_dict['Distribution Services'], x="P/E Rating", y="PRICE", color="NAME", barmode="group")
-consumer_non_durables_fig = px.bar(sector_dict['Consumer Non-Durables'], x="P/E Rating", y="PRICE", color="NAME", barmode="group")
-communications_fig = px.bar(sector_dict['Communications'], x="P/E Rating", y="PRICE", color="NAME", barmode="group")
+app.layout = html.Div([
+    html.H1('Nasdaq100 Components P/E Ratio Z-Score to rating 1-10 by Sector'),
+    html.Div(
+        children=[
+            html.Div(
+                children=[
+                html.Br(),
+                html.H3('Select Sector'),
+                dcc.Dropdown(id='sector_dd',
+                options=[
+                    {'label': 'Electronic Technology', 'value': 'Electronic Technology'},
+                    {'label': 'Technology Services', 'value': 'Technology Services'},
+                    {'label': 'Utilities', 'value': 'Utilities'},
+                    {'label': 'Health Technology', 'value': 'Health Technology'},
+                    {'label': 'Producer Manufacturing', 'value': 'Producer Manufacturing'},
+                    {'label': 'Retail Trade', 'value': 'Retail Trade'},
+                    {'label': 'Consumer Durables', 'value':'Consumer Durables'},
+                    {'label': 'Consumer Services', 'value': 'Consumer Services'},
+                    {'label': 'Commercial Services', 'value': 'Commercial Services'},
+                    {'label': 'Transportation', 'value': 'Transportation'},
+                    {'label': 'Distribution Services', 'value': 'Distribution Services'},
+                    {'label': 'Consumer Non-Durables', 'value': 'Consumer Non-Durables'},
+                    {'label': 'Communications', 'value': 'Communications'}, ],
+                    style={'width': '200px', 'margin': '0 auto'})
+                ],
+                style={'width': '350px', 'height': '150px', 'display': 'inline-block', 'vertical-align': 'top',
+                       'border': '1px solid black', 'padding': '20px'}),
+            html.Div(children=[
+                    # Add a graph component with identifier
+                    dcc.Graph(id='sector'),
+                    ],
+                     style={'width':'1000px','display':'inline-block'}
+                     ),
+            ])],
+          style={'text-align': 'center', 'display': 'inline-block', 'width': '100%'}
+          )
 
-app.layout = html.Div(children=
-                      [html.H1(children='Nasdaq100 Components P/E Ratio Z-Score by Sector'),
-                       html.H1(children='Electronic Technology'),
-                       dcc.Graph(id='electronic-technology', figure=electronic_technology_fig),
-                       html.H1(children='Technology Services'),
-                       dcc.Graph(id='technology-services', figure=technology_services_fig),
-                       html.H1(children='Utilities'),
-                       dcc.Graph(id='utilties', figure=utilities_fig),
-                       html.H1(children='Health Technology'),
-                       dcc.Graph(id='health-technology', figure=health_tech_fig),
-                       html.H1(children='Producer Manufacturing'),
-                       dcc.Graph(id='producer-manufacturing', figure=producer_mfg_fig),
-                       html.H1(children='Retail Trade'),
-                       dcc.Graph(id='retail-trade', figure=retail_trade_fig),
-                       html.H1(children='Consumer Durables'),
-                       dcc.Graph(id='consumer-durables', figure=consumer_durables_fig),
-                       html.H1(children='Consumer Services'),
-                       dcc.Graph(id='consumer-services', figure=consumer_services_fig),
-                       html.H1(children='Commercial Services'),
-                       dcc.Graph(id='commercial-services', figure=commercial_services_fig),
-                       html.H1(children='Transportation'),
-                       dcc.Graph(id='transportation', figure=transportation_fig),
-                       html.H1(children='Distribution Services'),
-                       dcc.Graph(id='distribution-services', figure=distribution_services_fig),
-                       html.H1(children='Consumer Non-Durables'),
-                       dcc.Graph(id='consumer-non-durables', figure=consumer_non_durables_fig),
-                       html.H1(children='Communications'),
-                       dcc.Graph(id='communications', figure=communications_fig)
-                       ])
+@app.callback(
+    Output(component_id='sector', component_property='figure'),
+    Input(component_id='sector_dd', component_property='value')
+)
+def update_plot(input_sector):
+    df = sector_dict[input_sector]
+    return px.bar(df, x="P/E Rating", y="PRICE", color="TICKER")
+
 
 if __name__ == '__main__':
     app.run_server(debug=True)

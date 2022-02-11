@@ -1,101 +1,101 @@
 ,TICKER,PRICE,CHG,PRICE_CHANGE,RATING,VOLUME,VOLUME*PRICE,MARKET CAP,P/E,EPS,NUMBER OF EMPLOYEES,SECTOR
-0,AAPLApple Inc,173.17USD,−1.76%,−3.11USD,Buy,48.689M,8.431B,2.826TUSD,29.27,6.08USD,154K,Electronic Technology
-1,"ABNBAirbnb, Inc.",174.52USD,2.95%,4.99USD,Strong Buy,4.936M,861.398M,110.89BUSD,—,−7.21USD,5.597K,Consumer Services
-2,ADBEAdobe Inc.,500.89USD,−4.00%,−20.86USD,Sell,2.192M,1.098B,236.27BUSD,52.07,10.10USD,25.988K,Technology Services
-3,"ADIAnalog Devices, Inc.",164.67USD,−2.10%,−3.54USD,Neutral,1.031M,169.697M,86.579BUSD,45.64,3.72USD,24.7K,Electronic Technology
-4,"ADPAutomatic Data Processing, Inc.",205.50USD,−2.68%,−5.66USD,Sell,888.279K,182.541M,86.319BUSD,32.70,6.49USD,56K,Technology Services
-5,"ADSKAutodesk, Inc.",242.09USD,−3.68%,−9.25USD,Strong Sell,991.36K,239.998M,53.253BUSD,42.38,6.00USD,11.5K,Technology Services
-6,"AEPAmerican Electric Power Company, Inc.",87.82USD,−1.75%,−1.56USD,Sell,1.332M,116.939M,44.231BUSD,18.75,4.78USD,16.787K,Utilities
-7,"ALGNAlign Technology, Inc.",541.70USD,−0.78%,−4.24USD,Neutral,476.304K,258.014M,42.715BUSD,56.31,9.78USD,—,Health Technology
-8,"AMATApplied Materials, Inc.",142.32USD,−1.30%,−1.88USD,Neutral,3.748M,533.419M,126.379BUSD,22.48,6.48USD,27K,Producer Manufacturing
-9,"AMDAdvanced Micro Devices, Inc.",127.55USD,−3.99%,−5.30USD,Buy,72.991M,9.31B,152.975BUSD,51.60,2.61USD,15.5K,Electronic Technology
-10,AMGNAmgen Inc.,230.24USD,−2.93%,−6.95USD,Buy,2.148M,494.659M,129.686BUSD,24.44,9.76USD,24.3K,Health Technology
-11,"AMZNAmazon.com, Inc.",3171.22USD,−1.63%,−52.58USD,Neutral,1.99M,6.312B,1.608TUSD,49.73,65.91USD,1.608M,Retail Trade
-12,"ANSSANSYS, Inc.",336.31USD,−1.51%,−5.16USD,Sell,151.794K,51.05M,29.344BUSD,64.24,5.39USD,4.8K,Technology Services
-13,ASMLASML Holding N.V. - New York Registry SharesDR,664.31USD,−2.36%,−16.06USD,Sell,560.442K,372.307M,271.416BUSD,—,16.95USD,—,Electronic Technology
-14,"ATVIActivision Blizzard, Inc",81.42USD,−0.10%,−0.08USD,Buy,3.708M,301.88M,63.431BUSD,23.65,3.47USD,—,Consumer Durables
-15,AVGOBroadcom Inc.,598.78USD,−2.05%,−12.56USD,Buy,1.123M,672.322M,247.221BUSD,40.75,15.70USD,20K,Electronic Technology
-16,"BIDUBaidu, Inc.DR",166.23USD,−0.28%,−0.47USD,Buy,1.452M,241.437M,57.415BUSD,27.52,6.45USD,41K,Technology Services
-17,BIIBBiogen Inc.,225.02USD,−0.79%,−1.79USD,Sell,659.994K,148.512M,33.054BUSD,21.82,10.43USD,9.61K,Health Technology
-18,BKNGBooking Holdings Inc. Common Stock,2628.96USD,0.08%,1.98USD,Buy,226.512K,595.491M,107.954BUSD,286.76,9.29USD,20.3K,Consumer Services
-19,"CDNSCadence Design Systems, Inc.",150.72USD,−2.38%,−3.68USD,Sell,628.525K,94.731M,41.771BUSD,62.22,2.53USD,8.8K,Technology Services
-20,CCEGConstellation Energy Corporation,47.28USD,−0.07%,−0.04USD,Sell,1.215M,57.452M,—,—,—,—,Utilities
-21,"CHTRCharter Communications, Inc.",607.82USD,−1.13%,−6.93USD,Sell,704.612K,428.277M,104.996BUSD,25.12,25.56USD,93.7K,Consumer Services
-22,CMCSAComcast Corporation,48.97USD,−1.62%,−0.81USD,Strong Sell,10.038M,491.514M,221.97BUSD,16.37,3.09USD,189K,Consumer Services
-23,COSTCostco Wholesale Corporation,519.77USD,−1.71%,−9.06USD,Buy,1.026M,533.254M,230.483BUSD,45.50,11.65USD,288K,Retail Trade
-24,"CPRTCopart, Inc.",129.59USD,−1.26%,−1.66USD,Neutral,343.344K,44.494M,30.737BUSD,31.69,4.21USD,8.6K,Commercial Services
-25,"CRWDCrowdStrike Holdings, Inc.",189.62USD,1.46%,2.72USD,Buy,1.938M,367.483M,43.496BUSD,—,−0.94USD,3.394K,Technology Services
-26,"CSCOCisco Systems, Inc.",55.39USD,−1.60%,−0.90USD,Sell,7.768M,430.293M,233.613BUSD,20.93,2.70USD,79.5K,Technology Services
-27,CSXCSX Corporation,34.02USD,−2.07%,−0.72USD,Sell,5.435M,184.913M,75.458BUSD,20.71,—,—,Transportation
-28,CTASCintas Corporation,382.33USD,−2.36%,−9.24USD,Strong Sell,271.675K,103.87M,39.66BUSD,36.54,10.98USD,40K,Consumer Services
-29,CTSHCognizant Technology Solutions Corporation,91.10USD,−0.64%,−0.59USD,Buy,1.9M,173.07M,47.85BUSD,22.64,4.06USD,—,Technology Services
-30,"DDOGDatadog, Inc.",177.00USD,13.82%,21.50USD,Strong Buy,12.529M,2.218B,55.226BUSD,—,−0.14USD,1.085K,Technology Services
-31,"DLTRDollar Tree, Inc.",138.42USD,−2.25%,−3.18USD,Buy,519.845K,71.957M,31.138BUSD,23.92,5.95USD,199.327K,Retail Trade
-32,"DOCUDocuSign, Inc.",129.35USD,0.93%,1.19USD,Neutral,2.576M,333.14M,25.595BUSD,—,−0.59USD,5.63K,Technology Services
-33,"DXCMDexCom, Inc.",445.24USD,−0.59%,−2.65USD,Neutral,517.118K,230.239M,43.153BUSD,87.00,5.50USD,6.4K,Health Technology
-34,EAElectronic Arts Inc.,135.22USD,−0.42%,−0.57USD,Buy,636.124K,86.014M,38.025BUSD,61.06,2.24USD,11K,Consumer Durables
-35,EBAYeBay Inc.,59.44USD,−1.93%,−1.17USD,Sell,1.514M,89.986M,37.21BUSD,3.33,18.50USD,12.7K,Retail Trade
-36,EXCExelon Corporation,42.31USD,−0.68%,−0.29USD,Sell,6.074M,256.995M,41.443BUSD,24.92,1.71USD,32.34K,Utilities
-37,FASTFastenal Company,53.18USD,−2.44%,−1.33USD,Sell,1.191M,63.323M,30.608BUSD,34.01,1.61USD,20.507K,Distribution Services
-38,"FBMeta Platforms, Inc.",229.39USD,−1.13%,−2.61USD,Sell,32.223M,7.392B,624.386BUSD,16.81,13.99USD,71.97K,Technology Services
-39,"FISVFiserv, Inc.",99.83USD,−2.30%,−2.35USD,Strong Sell,2.354M,234.984M,65.911BUSD,51.41,—,—,Technology Services
-40,"FTNTFortinet, Inc.",326.57USD,−0.99%,−3.27USD,Buy,476.545K,155.625M,53.394BUSD,90.87,3.72USD,—,Electronic Technology
-41,"GILDGilead Sciences, Inc.",62.67USD,−1.13%,−0.72USD,Sell,6.355M,398.25M,78.606BUSD,12.84,4.96USD,—,Health Technology
-42,GOOGAlphabet Inc (Google) Class C,2782.49USD,−1.65%,−46.57USD,Neutral,841.65K,2.342B,1.84TUSD,25.21,113.92USD,156.5K,Technology Services
-43,GOOGLAlphabet Inc (Google) Class A,2778.46USD,−1.88%,−53.38USD,Sell,1.096M,3.046B,1.836TUSD,25.23,113.92USD,156.5K,Technology Services
-44,HONHoneywell International Inc.,194.32USD,−1.17%,−2.31USD,Sell,1.199M,233.072M,133.771BUSD,24.86,8.01USD,—,Producer Manufacturing
-45,"IDXXIDEXX Laboratories, Inc.",529.02USD,−0.52%,−2.79USD,Sell,144.23K,76.301M,44.858BUSD,61.81,8.74USD,—,Health Technology
-46,"ILMNIllumina, Inc.",361.57USD,−1.71%,−6.29USD,Sell,502.441K,181.668M,56.513BUSD,60.52,6.12USD,7.8K,Health Technology
-47,INTCIntel Corporation,49.28USD,−1.27%,−0.64USD,Sell,13.063M,643.67M,200.648BUSD,10.27,4.89USD,121.1K,Electronic Technology
-48,INTUIntuit Inc.,564.03USD,−2.65%,−15.37USD,Neutral,711.664K,401.4M,159.715BUSD,76.51,7.66USD,13.5K,Technology Services
-49,"ISRGIntuitive Surgical, Inc.",293.18USD,0.34%,1.00USD,Neutral,1.372M,402.26M,104.659BUSD,62.67,4.79USD,9.793K,Health Technology
-50,"JDJD.com, Inc.DR",77.27USD,−1.30%,−1.02USD,Buy,3.613M,279.202M,117.308BUSD,32.13,2.53USD,314.906K,Retail Trade
-51,KDPKeurig Dr Pepper Inc.,38.25USD,−1.11%,−0.43USD,Buy,2.928M,112M,54.237BUSD,31.88,1.22USD,27K,Consumer Non-Durables
-52,KHCThe Kraft Heinz Company,34.52USD,−1.23%,−0.43USD,Sell,3.714M,128.217M,42.253BUSD,18.72,1.88USD,38K,Consumer Non-Durables
-53,KLACKLA Corporation,397.47USD,−0.66%,−2.66USD,Buy,513.806K,204.222M,59.905BUSD,20.59,19.58USD,11.3K,Electronic Technology
-54,"LCIDLucid Group, Inc.",28.48USD,−1.23%,−0.36USD,Sell,17.742M,505.204M,46.88BUSD,—,−6.32USD,—,Consumer Durables
-55,LRCXLam Research Corporation,604.83USD,−0.43%,−2.61USD,Sell,598.847K,362.201M,84.374BUSD,18.92,32.35USD,14.1K,Electronic Technology
-56,LULUlululemon athletica inc.,336.38USD,−0.96%,−3.26USD,Sell,566.752K,190.644M,43.492BUSD,50.98,6.69USD,25K,Retail Trade
-57,MARMarriott International,174.26USD,0.42%,0.73USD,Buy,993.474K,173.123M,56.754BUSD,122.73,1.43USD,121K,Consumer Services
-58,MCHPMicrochip Technology Incorporated,76.39USD,−2.60%,−2.04USD,Neutral,2.635M,201.263M,42.387BUSD,46.06,1.75USD,19.5K,Electronic Technology
-59,"MDLZMondelez International, Inc.",67.03USD,−1.37%,−0.93USD,Neutral,3.395M,227.536M,93.06BUSD,22.32,3.06USD,79K,Consumer Non-Durables
-60,"MELIMercadoLibre, Inc.",1139.96USD,0.60%,6.76USD,Neutral,264.954K,302.037M,57.521BUSD,712.08,1.59USD,15.546K,Retail Trade
-61,MNSTMonster Beverage Corporation,83.52USD,−3.22%,−2.78USD,Strong Sell,1.562M,130.451M,44.191BUSD,30.22,2.89USD,3.666K,Consumer Non-Durables
-62,"MRNAModerna, Inc.",165.67USD,1.00%,1.64USD,Sell,3.315M,549.151M,67.169BUSD,10.07,17.53USD,1.3K,Health Technology
-63,"MRVLMarvell Technology, Inc.",75.52USD,−2.86%,−2.22USD,Buy,4.398M,332.148M,63.724BUSD,—,−0.51USD,5.34K,Electronic Technology
-64,MSFTMicrosoft Corp.,302.83USD,−2.69%,−8.38USD,Sell,24.135M,7.309B,2.27TUSD,33.11,9.47USD,181K,Technology Services
-65,"MTCHMatch Group, Inc.",116.37USD,−0.70%,−0.82USD,Neutral,811.343K,94.415M,32.942BUSD,134.98,1.05USD,—,Technology Services
-66,"MUMicron Technology, Inc.",91.95USD,4.35%,3.83USD,Strong Buy,22.024M,2.025B,102.964BUSD,13.61,6.57USD,43K,Electronic Technology
-67,"NFLXNetflix, Inc.",397.72USD,−3.67%,−15.17USD,Sell,4.441M,1.766B,176.573BUSD,36.75,11.55USD,11.3K,Technology Services
-68,"NTESNetEase, Inc.DR",103.81USD,−3.75%,−4.05USD,Buy,1.145M,118.832M,64.096BUSD,39.01,2.80USD,28.239K,Technology Services
-69,NVDANVIDIA Corporation,261.34USD,−2.14%,−5.71USD,Buy,34.028M,8.893B,653.35BUSD,82.37,3.30USD,18.975K,Electronic Technology
-70,NXPINXP Semiconductors N.V.,203.68USD,−2.90%,−6.08USD,Sell,892.981K,181.882M,54.165BUSD,30.74,6.94USD,—,Electronic Technology
-71,"ODFLOld Dominion Freight Line, Inc.",311.77USD,−1.31%,−4.13USD,Neutral,240.516K,74.986M,35.857BUSD,35.53,8.95USD,—,Transportation
-72,"OKTAOkta, Inc.",199.26USD,1.94%,3.80USD,Buy,1.007M,200.653M,30.994BUSD,—,−4.68USD,2.806K,Technology Services
-73,"ORLYO'Reilly Automotive, Inc.",658.42USD,2.84%,18.20USD,Buy,701.419K,461.828M,44.363BUSD,22.18,29.13USD,77.827K,Retail Trade
-74,"PANWPalo Alto Networks, Inc.",528.36USD,−1.15%,−6.13USD,Buy,358.227K,189.273M,52.131BUSD,—,−5.27USD,10.473K,Electronic Technology
-75,"PAYXPaychex, Inc.",120.62USD,−2.82%,−3.50USD,Sell,1.1M,132.706M,43.515BUSD,35.21,3.55USD,15K,Technology Services
-76,PCARPACCAR Inc.,93.56USD,−1.18%,−1.12USD,Neutral,461.213K,43.151M,32.493BUSD,17.81,5.33USD,—,Producer Manufacturing
-77,PDDPinduoduo Inc.DR,63.97USD,2.71%,1.69USD,Buy,4.678M,299.247M,78.055BUSD,—,−0.03USD,7.986K,Retail Trade
-78,"PEPPepsiCo, Inc.",168.68USD,−1.90%,−3.26USD,Sell,3.542M,597.53M,233.226BUSD,29.32,5.89USD,291K,Consumer Non-Durables
-79,"PYPLPayPal Holdings, Inc.",120.74USD,−1.79%,−2.20USD,Sell,18.552M,2.24B,140.663BUSD,35.00,3.55USD,30.9K,Technology Services
-80,QCOMQUALCOMM Incorporated,177.37USD,−3.58%,−6.59USD,Neutral,6.563M,1.164B,199.89BUSD,21.09,8.85USD,45K,Electronic Technology
-81,"REGNRegeneron Pharmaceuticals, Inc.",620.93USD,0.19%,1.16USD,Buy,401.293K,249.175M,67.395BUSD,8.60,76.45USD,10.368K,Health Technology
-82,"ROSTRoss Stores, Inc.",96.49USD,−0.95%,−0.93USD,Sell,844.213K,81.458M,34.093BUSD,21.68,4.52USD,93.7K,Retail Trade
-83,SBUXStarbucks Corporation,95.61USD,−1.56%,−1.52USD,Sell,4.279M,409.122M,109.98BUSD,26.20,3.73USD,383K,Consumer Services
-84,SGENSeagen Inc.,120.00USD,−15.14%,−21.41USD,Strong Sell,5.748M,689.746M,21.943BUSD,—,−1.81USD,2.092K,Health Technology
-85,SIRISirius XM Holdings Inc.,6.35USD,−7.43%,−0.51USD,Sell,19.48M,123.696M,25.069BUSD,21.55,0.32USD,5.59K,Consumer Services
-86,"SNPSSynopsys, Inc.",315.35USD,−2.72%,−8.83USD,Neutral,334.279K,105.415M,48.387BUSD,67.29,4.96USD,16.361K,Technology Services
-87,SPLKSplunk Inc.,119.03USD,−2.96%,−3.63USD,Neutral,1.329M,158.223M,18.9BUSD,—,−8.23USD,6.5K,Technology Services
-88,"SWKSSkyworks Solutions, Inc.",143.13USD,−0.56%,−0.81USD,Sell,888.336K,127.148M,23.474BUSD,17.29,8.41USD,11K,Electronic Technology
-89,TEAMAtlassian Corporation Plc,346.00USD,3.10%,10.40USD,Buy,1.34M,463.57M,87.706BUSD,—,−2.10USD,6.433K,Technology Services
-90,"TMUST-Mobile US, Inc.",125.12USD,−2.31%,−2.96USD,Buy,4.028M,503.978M,156.302BUSD,53.09,2.43USD,—,Communications
-91,"TSLATesla, Inc.",914.67USD,−1.86%,−17.33USD,Sell,14.183M,12.973B,945.318BUSD,190.48,5.54USD,99.29K,Consumer Durables
-92,TXNTexas Instruments Incorporated,173.13USD,−2.03%,−3.58USD,Sell,3.235M,560.137M,159.894BUSD,21.38,8.38USD,31K,Electronic Technology
-93,"VRSKVerisk Analytics, Inc.",194.61USD,−2.24%,−4.46USD,Sell,687.79K,133.847M,31.363BUSD,46.53,4.32USD,8.96K,Technology Services
-94,"VRSNVeriSign, Inc.",213.75USD,−2.63%,−5.78USD,Strong Sell,278.231K,59.472M,23.743BUSD,40.50,5.43USD,909,Technology Services
-95,VRTXVertex Pharmaceuticals Incorporated,238.68USD,−2.28%,−5.56USD,Buy,806.16K,192.414M,60.762BUSD,27.05,9.11USD,—,Health Technology
-96,"WBAWalgreens Boots Alliance, Inc.",49.51USD,−0.96%,−0.48USD,Sell,3.612M,178.817M,42.741BUSD,6.74,7.43USD,315K,Retail Trade
-97,"WDAYWorkday, Inc.",241.20USD,−0.92%,−2.25USD,Sell,637.564K,153.78M,60.3BUSD,16674.66,0.11USD,12.5K,Technology Services
-98,XELXcel Energy Inc.,67.38USD,−2.62%,−1.81USD,Sell,1.246M,83.967M,36.296BUSD,23.39,2.96USD,—,Utilities
-99,"XLNXXilinx, Inc.",219.90USD,−2.35%,−5.30USD,Buy,5.739M,1.262B,54.619BUSD,60.71,3.76USD,4.89K,Electronic Technology
+0,AAPLApple Inc,172.12,−2.36%,−4.16USD,Buy,90.864M,15.64B,2.809TUSD,29.27,6.08USD,154K,Electronic Technology
+1,"ABNBAirbnb, Inc.",171.95,1.43%,2.42USD,Strong Buy,8.261M,1.421B,109.255BUSD,—,−7.21USD,5.597K,Consumer Services
+2,ADBEAdobe Inc.,495.02,−5.12%,−26.73USD,Strong Sell,4.736M,2.344B,233.501BUSD,52.07,10.10USD,25.988K,Technology Services
+3,"ADIAnalog Devices, Inc.",161.67,−3.89%,−6.54USD,Sell,3.463M,559.792M,85.002BUSD,45.64,3.72USD,24.7K,Electronic Technology
+4,"ADPAutomatic Data Processing, Inc.",205.54,−2.66%,−5.62USD,Sell,2.271M,466.69M,86.336BUSD,32.70,6.49USD,56K,Technology Services
+5,"ADSKAutodesk, Inc.",238.52,−5.10%,−12.82USD,Strong Sell,2.05M,488.982M,52.468BUSD,42.38,6.00USD,11.5K,Technology Services
+6,"AEPAmerican Electric Power Company, Inc.",87.39,−2.23%,−1.99USD,Sell,3.065M,267.855M,44.014BUSD,18.75,4.78USD,16.787K,Utilities
+7,"ALGNAlign Technology, Inc.",532.36,−2.49%,−13.58USD,Sell,1.063M,565.854M,41.978BUSD,56.31,9.78USD,—,Health Technology
+8,"AMATApplied Materials, Inc.",139.77,−3.07%,−4.43USD,Sell,8.526M,1.192B,124.115BUSD,22.48,6.48USD,27K,Producer Manufacturing
+9,"AMDAdvanced Micro Devices, Inc.",125.77,−5.33%,−7.08USD,Neutral,108.937M,13.701B,150.836BUSD,51.60,2.61USD,15.5K,Electronic Technology
+10,AMGNAmgen Inc.,228.82,−3.53%,−8.37USD,Buy,5.035M,1.152B,128.886BUSD,24.44,9.76USD,24.3K,Health Technology
+11,"AMZNAmazon.com, Inc.",3180.07,−1.36%,−43.72USD,Neutral,3.413M,10.855B,1.613TUSD,49.73,65.91USD,1.608M,Retail Trade
+12,"ANSSANSYS, Inc.",333.01,−2.48%,−8.46USD,Sell,513.127K,170.876M,29.056BUSD,64.24,5.39USD,4.8K,Technology Services
+13,ASMLASML Holding N.V. - New York Registry SharesDR,656.88,−3.45%,−23.49USD,Strong Sell,961.205K,631.396M,271.416BUSD,—,16.95USD,—,Electronic Technology
+14,"ATVIActivision Blizzard, Inc",81.45,−0.06%,−0.05USD,Buy,9.061M,738.043M,63.454BUSD,23.65,3.47USD,—,Consumer Durables
+15,AVGOBroadcom Inc.,591.36,−3.27%,−19.98USD,Buy,2.492M,1.474B,244.157BUSD,40.75,15.70USD,20K,Electronic Technology
+16,"BIDUBaidu, Inc.DR",164.56,−1.28%,−2.14USD,Buy,2.653M,436.508M,57.415BUSD,27.52,6.45USD,41K,Technology Services
+17,BIIBBiogen Inc.,220.04,−2.98%,−6.77USD,Strong Sell,1.316M,289.568M,32.322BUSD,21.82,10.43USD,9.61K,Health Technology
+18,BKNGBooking Holdings Inc. Common Stock,2628.38,0.05%,1.40USD,Buy,473.432K,1.244B,107.93BUSD,286.76,9.29USD,20.3K,Consumer Services
+19,"CDNSCadence Design Systems, Inc.",148.87,−3.58%,−5.53USD,Strong Sell,1.385M,206.236M,41.258BUSD,62.22,2.53USD,8.8K,Technology Services
+20,CCEGConstellation Energy Corporation,47.05,−0.55%,−0.26USD,Sell,2.45M,115.27M,—,—,—,—,Utilities
+21,"CHTRCharter Communications, Inc.",606.52,−1.34%,−8.23USD,Sell,1.515M,918.744M,104.771BUSD,25.12,25.56USD,93.7K,Consumer Services
+22,CMCSAComcast Corporation,48.92,−1.71%,−0.85USD,Strong Sell,21.583M,1.056B,221.766BUSD,16.37,3.09USD,189K,Consumer Services
+23,COSTCostco Wholesale Corporation,518.48,−1.96%,−10.35USD,Buy,2.559M,1.327B,229.911BUSD,45.50,11.65USD,288K,Retail Trade
+24,"CPRTCopart, Inc.",128.43,−2.15%,−2.82USD,Sell,829.637K,106.55M,30.462BUSD,31.69,4.21USD,8.6K,Commercial Services
+25,"CRWDCrowdStrike Holdings, Inc.",187.88,0.52%,0.98USD,Buy,3.465M,651.064M,43.097BUSD,—,−0.94USD,3.394K,Technology Services
+26,"CSCOCisco Systems, Inc.",54.87,−2.52%,−1.42USD,Strong Sell,19.731M,1.083B,231.42BUSD,20.93,2.70USD,79.5K,Technology Services
+27,CSXCSX Corporation,33.99,−2.16%,−0.75USD,Sell,10.938M,371.771M,75.389BUSD,20.71,—,—,Transportation
+28,CTASCintas Corporation,381.65,−2.53%,−9.92USD,Strong Sell,519.625K,198.315M,39.59BUSD,36.54,10.98USD,40K,Consumer Services
+29,CTSHCognizant Technology Solutions Corporation,90.25,−1.57%,−1.44USD,Buy,3.886M,350.732M,47.404BUSD,22.64,4.06USD,—,Technology Services
+30,"DDOGDatadog, Inc.",174.60,12.28%,19.10USD,Strong Buy,15.866M,2.77B,54.478BUSD,—,−0.14USD,1.085K,Technology Services
+31,"DLTRDollar Tree, Inc.",137.93,−2.59%,−3.67USD,Buy,2.306M,318.115M,31.028BUSD,23.92,5.95USD,199.327K,Retail Trade
+32,"DOCUDocuSign, Inc.",127.22,−0.73%,−0.94USD,Neutral,3.967M,504.709M,25.174BUSD,—,−0.59USD,5.63K,Technology Services
+33,"DXCMDexCom, Inc.",442.27,−1.25%,−5.61USD,Neutral,1.125M,497.527M,42.866BUSD,87.00,5.50USD,6.4K,Health Technology
+34,EAElectronic Arts Inc.,134.98,−0.60%,−0.81USD,Buy,1.719M,231.98M,37.959BUSD,61.06,2.24USD,11K,Consumer Durables
+35,EBAYeBay Inc.,58.81,−2.97%,−1.80USD,Strong Sell,3.976M,233.854M,36.815BUSD,3.33,18.50USD,12.7K,Retail Trade
+36,EXCExelon Corporation,42.04,−1.31%,−0.56USD,Sell,11.357M,477.428M,41.178BUSD,24.92,1.71USD,32.34K,Utilities
+37,FASTFastenal Company,52.86,−3.03%,−1.65USD,Strong Sell,3.234M,170.929M,30.424BUSD,34.01,1.61USD,20.507K,Distribution Services
+38,"FBMeta Platforms, Inc.",228.07,−1.69%,−3.93USD,Sell,49.31M,11.246B,620.793BUSD,16.81,13.99USD,71.97K,Technology Services
+39,"FISVFiserv, Inc.",99.18,−2.94%,−3.00USD,Strong Sell,4.353M,431.706M,65.482BUSD,51.41,—,—,Technology Services
+40,"FTNTFortinet, Inc.",325.36,−1.36%,−4.48USD,Buy,1.153M,375.125M,53.196BUSD,90.87,3.72USD,—,Electronic Technology
+41,"GILDGilead Sciences, Inc.",61.79,−2.51%,−1.59USD,Strong Sell,14.978M,925.488M,77.508BUSD,12.84,4.96USD,—,Health Technology
+42,GOOGAlphabet Inc (Google) Class C,2772.05,−2.02%,−57.01USD,Sell,1.651M,4.576B,1.833TUSD,25.21,113.92USD,156.5K,Technology Services
+43,GOOGLAlphabet Inc (Google) Class A,2772.40,−2.10%,−59.44USD,Sell,1.967M,5.452B,1.832TUSD,25.23,113.92USD,156.5K,Technology Services
+44,HONHoneywell International Inc.,191.75,−2.48%,−4.87USD,Strong Sell,3.66M,701.727M,132.005BUSD,24.86,8.01USD,—,Producer Manufacturing
+45,"IDXXIDEXX Laboratories, Inc.",526.20,−1.05%,−5.61USD,Sell,430.194K,226.368M,44.618BUSD,61.81,8.74USD,—,Health Technology
+46,"ILMNIllumina, Inc.",358.08,−2.66%,−9.78USD,Sell,1.116M,399.512M,55.968BUSD,60.52,6.12USD,7.8K,Health Technology
+47,INTCIntel Corporation,48.86,−2.10%,−1.05USD,Sell,32.763M,1.601B,198.958BUSD,10.27,4.89USD,121.1K,Electronic Technology
+48,INTUIntuit Inc.,557.58,−3.77%,−21.82USD,Neutral,1.594M,888.937M,157.889BUSD,76.51,7.66USD,13.5K,Technology Services
+49,"ISRGIntuitive Surgical, Inc.",292.49,0.11%,0.31USD,Neutral,2.883M,843.206M,104.411BUSD,62.67,4.79USD,9.793K,Health Technology
+50,"JDJD.com, Inc.DR",76.40,−2.41%,−1.89USD,Buy,6.432M,491.419M,117.308BUSD,32.13,2.53USD,314.906K,Retail Trade
+51,KDPKeurig Dr Pepper Inc.,38.28,−1.03%,−0.40USD,Buy,6.926M,265.128M,54.28BUSD,31.88,1.22USD,27K,Consumer Non-Durables
+52,KHCThe Kraft Heinz Company,34.29,−1.89%,−0.66USD,Strong Sell,6.823M,233.975M,41.972BUSD,18.72,1.88USD,38K,Consumer Non-Durables
+53,KLACKLA Corporation,389.71,−2.60%,−10.42USD,Buy,1.326M,516.944M,58.735BUSD,20.59,19.58USD,11.3K,Electronic Technology
+54,"LCIDLucid Group, Inc.",27.91,−3.19%,−0.92USD,Sell,24.458M,682.615M,45.95BUSD,—,−6.32USD,—,Consumer Durables
+55,LRCXLam Research Corporation,594.87,−2.07%,−12.57USD,Sell,1.515M,901.109M,82.984BUSD,18.92,32.35USD,14.1K,Electronic Technology
+56,LULUlululemon athletica inc.,334.35,−1.56%,−5.29USD,Sell,1.187M,396.731M,43.229BUSD,50.98,6.69USD,25K,Retail Trade
+57,MARMarriott International,174.68,0.66%,1.15USD,Buy,2.121M,370.544M,56.89BUSD,122.73,1.43USD,121K,Consumer Services
+58,MCHPMicrochip Technology Incorporated,74.93,−4.46%,−3.50USD,Sell,6.469M,484.752M,41.576BUSD,46.06,1.75USD,19.5K,Electronic Technology
+59,"MDLZMondelez International, Inc.",66.77,−1.75%,−1.19USD,Sell,7.609M,508.068M,92.699BUSD,22.32,3.06USD,79K,Consumer Non-Durables
+60,"MELIMercadoLibre, Inc.",1122.42,−0.95%,−10.78USD,Neutral,539.116K,605.115M,56.636BUSD,712.08,1.59USD,15.546K,Retail Trade
+61,MNSTMonster Beverage Corporation,83.83,−2.85%,−2.46USD,Strong Sell,3.179M,266.485M,44.358BUSD,30.22,2.89USD,3.666K,Consumer Non-Durables
+62,"MRNAModerna, Inc.",160.42,−2.20%,−3.61USD,Sell,5.965M,956.977M,65.042BUSD,10.07,17.53USD,1.3K,Health Technology
+63,"MRVLMarvell Technology, Inc.",73.84,−5.02%,−3.90USD,Neutral,12.089M,892.64M,62.306BUSD,—,−0.51USD,5.34K,Electronic Technology
+64,MSFTMicrosoft Corp.,302.38,−2.84%,−8.83USD,Sell,45.386M,13.724B,2.267TUSD,33.11,9.47USD,181K,Technology Services
+65,"MTCHMatch Group, Inc.",114.40,−2.38%,−2.79USD,Sell,1.787M,204.464M,32.385BUSD,134.98,1.05USD,—,Technology Services
+66,"MUMicron Technology, Inc.",91.02,3.29%,2.90USD,Strong Buy,33.82M,3.078B,101.922BUSD,13.61,6.57USD,43K,Electronic Technology
+67,"NFLXNetflix, Inc.",406.27,−1.60%,−6.62USD,Sell,8.453M,3.434B,180.369BUSD,36.75,11.55USD,11.3K,Technology Services
+68,"NTESNetEase, Inc.DR",103.30,−4.23%,−4.56USD,Buy,2.09M,215.891M,64.096BUSD,39.01,2.80USD,28.239K,Technology Services
+69,NVDANVIDIA Corporation,258.24,−3.30%,−8.81USD,Neutral,51.319M,13.253B,645.6BUSD,82.37,3.30USD,18.975K,Electronic Technology
+70,NXPINXP Semiconductors N.V.,199.05,−5.11%,−10.71USD,Sell,2.467M,491.013M,52.934BUSD,30.74,6.94USD,—,Electronic Technology
+71,"ODFLOld Dominion Freight Line, Inc.",307.17,−2.76%,−8.73USD,Sell,672.501K,206.572M,35.328BUSD,35.53,8.95USD,—,Transportation
+72,"OKTAOkta, Inc.",196.28,0.42%,0.82USD,Neutral,1.749M,343.364M,30.53BUSD,—,−4.68USD,2.806K,Technology Services
+73,"ORLYO'Reilly Automotive, Inc.",658.45,2.85%,18.23USD,Buy,1.291M,850.38M,44.365BUSD,22.18,29.13USD,77.827K,Retail Trade
+74,"PANWPalo Alto Networks, Inc.",527.75,−1.26%,−6.74USD,Buy,878.066K,463.399M,52.071BUSD,—,−5.27USD,10.473K,Electronic Technology
+75,"PAYXPaychex, Inc.",120.37,−3.02%,−3.75USD,Sell,2.449M,294.777M,43.424BUSD,35.21,3.55USD,15K,Technology Services
+76,PCARPACCAR Inc.,92.99,−1.78%,−1.69USD,Neutral,1.486M,138.167M,32.295BUSD,17.81,5.33USD,—,Producer Manufacturing
+77,PDDPinduoduo Inc.DR,63.20,1.48%,0.92USD,Buy,6.766M,427.617M,78.055BUSD,—,−0.03USD,7.986K,Retail Trade
+78,"PEPPepsiCo, Inc.",168.37,−2.08%,−3.57USD,Sell,7.9M,1.33B,232.797BUSD,29.32,5.89USD,291K,Consumer Non-Durables
+79,"PYPLPayPal Holdings, Inc.",119.02,−3.19%,−3.92USD,Sell,30.012M,3.572B,138.659BUSD,35.00,3.55USD,30.9K,Technology Services
+80,QCOMQUALCOMM Incorporated,174.07,−5.37%,−9.88USD,Sell,14.362M,2.5B,196.177BUSD,21.09,8.85USD,45K,Electronic Technology
+81,"REGNRegeneron Pharmaceuticals, Inc.",618.22,−0.25%,−1.55USD,Neutral,769.513K,475.728M,67.101BUSD,8.60,76.45USD,10.368K,Health Technology
+82,"ROSTRoss Stores, Inc.",96.57,−0.87%,−0.85USD,Sell,2.47M,238.53M,34.121BUSD,21.68,4.52USD,93.7K,Retail Trade
+83,SBUXStarbucks Corporation,95.31,−1.87%,−1.82USD,Sell,9.099M,867.203M,109.635BUSD,26.20,3.73USD,383K,Consumer Services
+84,SGENSeagen Inc.,124.93,−11.65%,−16.48USD,Strong Sell,9.216M,1.151B,22.844BUSD,—,−1.81USD,2.092K,Health Technology
+85,SIRISirius XM Holdings Inc.,6.33,−7.73%,−0.53USD,Sell,33.558M,212.421M,24.99BUSD,21.55,0.32USD,5.59K,Consumer Services
+86,"SNPSSynopsys, Inc.",311.15,−4.02%,−13.03USD,Sell,878.691K,273.405M,47.742BUSD,67.29,4.96USD,16.361K,Technology Services
+87,SPLKSplunk Inc.,117.76,−3.99%,−4.90USD,Sell,2.657M,312.904M,18.699BUSD,—,−8.23USD,6.5K,Technology Services
+88,"SWKSSkyworks Solutions, Inc.",140.86,−2.14%,−3.08USD,Sell,2.114M,297.745M,23.102BUSD,17.29,8.41USD,11K,Electronic Technology
+89,TEAMAtlassian Corporation Plc,346.16,3.15%,10.56USD,Buy,2.237M,774.254M,87.747BUSD,—,−2.10USD,6.433K,Technology Services
+90,"TMUST-Mobile US, Inc.",125.13,−2.30%,−2.95USD,Buy,6.902M,863.594M,156.314BUSD,53.09,2.43USD,—,Communications
+91,"TSLATesla, Inc.",904.55,−2.95%,−27.45USD,Sell,22.042M,19.938B,934.859BUSD,190.48,5.54USD,99.29K,Consumer Durables
+92,TXNTexas Instruments Incorporated,170.66,−3.42%,−6.05USD,Strong Sell,7.583M,1.294B,157.613BUSD,21.38,8.38USD,31K,Electronic Technology
+93,"VRSKVerisk Analytics, Inc.",194.69,−2.20%,−4.37USD,Sell,1.516M,295.142M,31.377BUSD,46.53,4.32USD,8.96K,Technology Services
+94,"VRSNVeriSign, Inc.",212.72,−3.10%,−6.81USD,Strong Sell,725.654K,154.361M,23.629BUSD,40.50,5.43USD,909,Technology Services
+95,VRTXVertex Pharmaceuticals Incorporated,235.89,−3.42%,−8.35USD,Neutral,1.809M,426.836M,60.052BUSD,27.05,9.11USD,—,Health Technology
+96,"WBAWalgreens Boots Alliance, Inc.",49.22,−1.54%,−0.77USD,Strong Sell,7.383M,363.372M,42.49BUSD,6.74,7.43USD,315K,Retail Trade
+97,"WDAYWorkday, Inc.",239.64,−1.57%,−3.81USD,Sell,1.385M,332.018M,59.91BUSD,16674.66,0.11USD,12.5K,Technology Services
+98,XELXcel Energy Inc.,67.08,−3.05%,−2.11USD,Sell,3.233M,216.837M,36.134BUSD,23.39,2.96USD,—,Utilities
+99,"XLNXXilinx, Inc.",216.55,−3.84%,−8.65USD,Buy,9.316M,2.017B,53.787BUSD,60.71,3.76USD,4.89K,Electronic Technology
